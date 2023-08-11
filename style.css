@@ -1,0 +1,5724 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background: #f7f7f7;
+    height: 40px;
+    font-size: 17px;
+}
+
+.contact-info {
+    position: absolute;
+    top: 12px;
+    left: 100px;
+}
+
+.fa-envelope {
+    font-size: 15px;
+    color: rgb(3, 133, 255);
+}
+
+.fa-mobile-screen-button {
+    position: relative;
+    left: 28px;
+    font-size: 15px;
+    color: rgb(3, 133, 255);
+}
+
+.num {
+    display: inline;
+    position: relative;
+    left: 31px;
+}
+
+.item-contact {
+    text-decoration: none;
+    color: black;
+}
+
+.sociallinks {
+    display: inline-block;
+    position: absolute;
+    right: 57px;
+    top: 13px;
+    font-size: 17px;
+    color: rgb(3, 133, 255);
+}
+
+.fa-brands:hover {
+    color: blue;
+    transition: .5s ease-in;
+}
+
+.fa-brands {
+    margin-left: 12px;
+    cursor: pointer;
+    transition: .5s ease-out;
+}
+
+.header {
+    background: rgb(255, 255, 255);
+    height: 85px;
+}
+
+.company-name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    color: #2c4964;
+}
+
+.header {
+    box-shadow: 0px -2px 5px gray;
+}
+
+.logo {
+    position: absolute;
+    left: 9%;
+    top: 64px;
+}
+
+.pages {
+    position: relative;
+    top: 45%;
+    left: 32%;
+}
+
+.items {
+    display: inline-block;
+    margin-left: 23px;
+   
+}
+
+.item-name {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .3s ease-out;
+}
+
+.item-name:hover {
+    color: rgb(3, 133, 255);
+    transition: .3s ease-in;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+  }
+
+.appoinment {
+    display: inline-block;
+    position: relative;
+    left: 80%;
+    top: 13%;
+    background: rgb(67, 67, 248);
+    height: 34px;
+    width: 193px;
+    border-radius: 30px;
+    transition: .4s ease-out;
+    cursor: pointer;
+}
+
+.booking {
+    display: inline-block;
+    color: #f7f7f7;
+    text-decoration: none;
+    margin-left: 26px;
+    margin-top: 8px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+.appoinment:hover {
+    background: blue;
+    transition: .4s ease-in;
+}
+
+.banner {
+    background-image: url(https://bootstrapmade.com/demo/templates/Medilab/assets/img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+
+
+.banner-info {
+    font-family: 'Raleway';
+    display: inline-block;
+    position: relative;
+    left: 4%;
+    top: 18%;
+    color: #2c4964;
+}
+
+.welcome-info {
+    font-size: 50px;
+}
+
+.info {
+    margin-top: 17px;
+    font-size: 25px;
+}
+
+.started {
+    position: relative;
+    display: inline-block;
+    background: #1977cc;
+    height: 48px;
+    width: 159px;
+    border-radius: 30px;
+    top: 29px;
+    transition: .4s ease-out;
+}
+
+.btn-get-started {
+    text-decoration: none;
+    color: white;
+    left: 25px;
+    position: relative;
+    top: 15px;
+}
+
+.started:hover {
+    background: rgb(71, 150, 214);
+    transition: .4s ease-in;
+}
+
+
+
+html,
+body {
+overflow-x: hidden;
+width: 100%;
+height: 100%;
+margin: 0;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+ .container{
+
+  }
+
+.box1 {
+    background: #1977cc;
+    height: 391px;
+    width: 31%;
+    display: inline-block;
+    position: absolute;
+    left: 4%;
+    top: 89%;
+    border-radius: 5px;
+}
+
+.service1 {
+    margin-left: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    display: inline-block;
+    padding-right: 154px;
+    margin-top: 40px;
+}
+
+.service1-info {
+    padding: 29px;
+    font-size: 18px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-align: left;
+}
+
+.btn-more {
+    position: absolute;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.219);
+    left: 125px;
+    top: 84%;
+    height: 40px;
+    width: 160px;
+    border-radius: 50px;
+    transition: .4s ease-out;
+}
+
+.more {
+    position: absolute;
+    left: 8px;
+    bottom: -1px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 11px;
+    margin-left: -4px;
+    margin-right: -1px;
+    padding-right: 29px;
+    padding-left: 29px;
+    transition: .4s ease-out;
+}
+
+.btn-more:hover {
+    background: white;
+    transition: .4s ease-in;
+}
+
+.more:hover {
+    color: #1977cc;
+    transition: .4s ease-in;
+}
+
+.box {
+    background: white;
+    height: 321px;
+    display: inline-block;
+    width: 19%;
+    position: relative;
+    margin-left: 2%;
+    left: 35%;
+    bottom: 171px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 22px grey;
+}
+
+.icons {
+    position: absolute;
+    left: 44.3%;
+    top: 16%;
+    font-size: 36px;
+    display: inline-block;
+    color: #1977cc;
+}
+
+.service2 {
+    position: absolute;
+    left: 1%;
+    top: 29%;
+    padding: 6%;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.service2-para {
+    position: absolute;
+    left: 2%;
+    top: 57%;
+    padding: 6%;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    color: #848484;
+}
+
+.watchvideo {
+    background: rgb(255, 255, 255);
+    height: 95%;
+    width: 39%;
+    background-image: url(https://bootstrapmade.com/demo/templates/Medilab/assets/img/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.left-box {
+    font-size: 50px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.589);
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    transition: .5s ease-out;
+    cursor: pointer;
+    position: relative;
+    left: 43%;
+    top: 260px;
+}
+
+.fa-circle-play {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #1977cc;
+    transition: .5s ease-out;
+}
+
+.fa-circle-play:hover  {
+    margin-left: -4px;
+    margin-top: -4px;
+    font-size: 80px;
+    color: #f7f7f7;
+    transition: .5s ease-in;
+}
+
+.left-box:hover {
+    background: #1977cc;
+    transition: .5s ease-in;
+}
+
+.right-box {
+    position: relative;
+    left: 104%;
+    bottom: 53px;
+    height: 100%;
+    width: 150%;
+}
+
+.information {
+    color: #2c4964;
+    font-size: 32px;
+    margin: 7px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.info-para {
+    color: #444444;
+    font-size: 18.5px;
+    font-family: "Open Sans", sans-serif;
+    margin: 7px;
+    margin-top: 20px;
+}
+
+.info-box1 {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.info-box2 {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.info-box3 {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.info-icon {
+    display: inline-block;
+    font-size: 35px;
+    background: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    position: relative;
+    left: 4px;
+    top: 25px;
+    outline: 2px solid;
+    color: #1977cc;
+    transition: .4s ease-out;
+}
+
+.info-box1:hover .info-icon {
+    color: white;
+    background: #1977cc;
+    transition: .4s ease-in;
+}
+
+.fa-fingerprint {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.title-1 {
+    margin: 10px;
+    margin-left: 80px;
+    position: relative;
+    bottom: 50px;
+}
+
+.lorem-btn {
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    color: #343a40;
+    text-decoration: none;
+    transition: .3s ease-out;
+}
+
+.lorem-btn:hover {
+    color: #1977cc;
+    transition: .3s ease-in;
+}
+
+.lorem-para {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    margin: 7px;
+    position: relative;
+    margin-left: 80px;
+    bottom: 48px;
+}
+
+.info-icon1 {
+    display: inline-block;
+    font-size: 35px;
+    background: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    position: relative;
+    left: 4px;
+    top: 25px;
+    outline: 2px solid;
+    color: #1977cc;
+    transition: .4s ease-out;
+}
+
+.info-box2:hover .info-icon1 {
+    color: white;
+    background: #1977cc;
+    transition: .4s ease-in;
+}
+
+.fa-gift {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.title-2 {
+    margin: 10px;
+    margin-left: 80px;
+    position: relative;
+    bottom: 50px;
+}
+
+.nemo-btn {
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    color: #343a40;
+    text-decoration: none;
+    transition: .3s ease-out;
+}
+
+.nemo-btn:hover {
+    color: #1977cc;
+    transition: .3s ease-in;
+}
+
+.nemo-para {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    margin: 7px;
+    position: relative;
+    margin-left: 80px;
+    bottom: 48px;
+}
+
+.info-icon2 {
+    display: inline-block;
+    font-size: 35px;
+    background: white;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    position: relative;
+    left: 4px;
+    top: 25px;
+    outline: 2px solid;
+    color: #1977cc;
+    transition: .4s ease-out;
+}
+
+.info-box3:hover .info-icon2 {
+    color: white;
+    background: #1977cc;
+    transition: .4s ease-in;
+}
+
+.fa-atom {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.title-3 {
+    margin: 10px;
+    margin-left: 80px;
+    position: relative;
+    bottom: 50px;
+}
+
+.dine-btn {
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    color: #343a40;
+    text-decoration: none;
+    transition: .3s ease-out;
+}
+
+.dine-btn:hover {
+    color: #1977cc;
+    transition: .3s ease-in;
+}
+.dine-para {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    margin: 7px;
+    position: relative;
+    margin-left: 80px;
+    bottom: 48px;
+}
+
+.counts {
+    background: #f1f7fd;
+    height: 34.5%;
+    width: 100%;
+    position: relative;
+    top: 45px;
+}
+
+.countbox {
+    background: #f1f7fd;
+    height: 136px;
+    width: 100%;
+    position: relative;
+    top: 55px;
+}
+
+.count1 {
+    background: #fff;
+    height: 136px;
+    width: 21%;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    margin-left: 30px;
+}
+
+
+.count-icon {
+    display: inline-block;
+    position: absolute;
+    background: #1977cc;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    left: 124px;
+    bottom: 110px;
+}
+
+.fa-user-doctor {
+    font-size: 27px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 9px;
+}
+
+.fa-hospital {
+    font-size: 23px;
+    color: white;
+    margin-left: 11px;
+    margin-top: 12px;
+}
+
+.fa-flask {
+    font-size: 24px;
+    color: white;
+    margin-left: 14px;
+    margin-top: 11px;
+}
+
+.fa-award {
+    font-size: 26px;
+    color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.number-count {
+    position: absolute;
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+    margin: 20px;
+    left: 107px;
+    top: 25px;
+    font-weight: 500;
+}
+
+.one {
+    left: 97px;
+}
+
+.count-para{
+    font-family: "Raleway", sans-serif;
+    position: absolute;
+    font-size: 16px;
+    margin: 7px;
+    left: 110px;
+    top: 92px;
+    color: #444444;
+}
+
+.cp1 {
+    left: 92px;
+}
+
+.cp2 {
+    left: 87px;
+}
+
+.cp3 {
+    left: 113px;
+}
+
+.service-section {
+    background: white;
+    height: 150%;
+    width: 100%;
+}
+
+.service-header {
+    position: relative;
+    top: 111px;
+}
+
+.service-title {
+    position: relative;
+    display: inline-block;
+    left: 45.5%;
+    font-family: "Raleway", sans-serif;
+    font-size: 34px;
+    color: #2c4964;
+}
+
+.service-paragraph {
+    position: relative;
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 110px;
+    padding-right: 110px;
+    font-family: "Open Sans", sans-serif;
+    top: 25px;
+    color: #444444;
+}
+
+.services-box {
+    height: 83%;
+    position: relative;
+    top: 147px;
+}
+
+.service-container {
+    background: white;
+    height: 325px;
+    width: 27%;
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    left: 88px;
+    outline: 0.1px solid rgba(87, 151, 204, 0.404);
+    transition: .3s ease-in-out;
+}
+
+.icons-service {
+    position: absolute;
+    font-size: 40px;
+    margin: 12px;
+    left: 140.75px;
+    top: 68px;
+    background: #1977cc;
+    height: 70px;
+    width: 70px;
+    border-radius: 6px;
+    box-shadow: -8px -8px 0px #badaf7;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.head-service-lorem {
+    position: absolute;
+    font-size: 26px;
+    margin: 12px;
+    left: 87.25px;
+    top: 159px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    cursor: pointer;
+}
+
+.head-service-sed {
+    position: absolute;
+    font-size: 26px;
+    margin: 12px;
+    left: 54.5px;
+    top: 159px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    cursor: pointer;
+}
+
+.head-service-magni {
+    position: absolute;
+    font-size: 26px;
+    margin: 12px;
+    left: 79.5px;
+    top: 159px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    cursor: pointer;
+}
+
+.head-service-nemo {
+    position: absolute;
+    font-size: 26px;
+    margin: 12px;
+    left: 97.5px;
+    top: 159px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    cursor: pointer;
+}
+
+.head-service-dele {
+    position: absolute;
+    font-size: 26px;
+    margin: 12px;
+    left: 104px;
+    top: 159px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    cursor: pointer;
+}
+
+.head-service-divera {
+    position: absolute;
+    font-size: 26px;
+    margin: 12px;
+    left: 102.5px;
+    top: 159px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    cursor: pointer;
+}
+
+.fa-heart-pulse {
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.fa-file-medical {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.fa-pills {
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.fa-dna {
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+.fa-wheelchair {
+    margin-left: 16px;
+    margin-top: 13px;
+}
+
+.fa-notes-medical {
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
+.para-service {
+    border-left-width: 10px;
+    padding-left: 36px;
+    padding-right: 36px;
+    text-align: center;
+    font-size: 17px;
+    top: 220px;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+
+.services-box .service-container:hover  {
+    background: #1977cc;
+}
+
+.services-box .service-container:hover .icons-service {
+    color: #1977cc;
+    background: white;
+}
+
+.services-box .service-container:hover .head-service-lorem{
+    color: white;
+}
+
+.services-box .service-container:hover .para-service {
+    color: white;
+}
+
+.services-box .service-container:hover .head-service-sed {
+    color: white;
+}
+
+.services-box .service-container:hover .head-service-magni {
+    color: white;
+}
+
+.services-box .service-container:hover .head-service-nemo {
+    color: white;
+}
+
+.services-box .service-container:hover .head-service-dele {
+    color: white;
+}
+
+.services-box .service-container:hover .head-service-divera{
+    color: white;
+}
+
+.appoinment-section {
+    background: #f1f7fd;
+    height: 730px;
+    width: 100%;
+    position: relative;
+    top: 45px;
+}
+
+.appoinment-header {
+    height: 200px;
+    width: 100%;
+}
+
+.appoinment-title {
+    font-size: 31px;
+    position: relative;
+    display: inline-block;
+    left: 38.7%;
+    top: 65px;
+    font-family: "Raleway", sans-serif;
+    color: #2c4964;
+}
+
+.appoinment-para {
+    position: relative;
+    font-size: 18px;
+    margin: 28px;
+    top: 75px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.main-form {
+    height: 62%;
+    width: 100%;
+}
+
+.appoinment-info1 {
+    display: inline-block;
+    height: 48px;
+    width: 100%;
+    position: relative;
+    top: 15px;
+}
+
+.appoinment-name {
+    position: relative;
+    display: inline-block;
+    left: 100px;
+}
+
+.appoinment-email {
+    position: relative;
+    display: inline-block;
+    left: 125px;
+}
+
+.appoinment-number {
+    position: relative;
+    display: inline-block;
+    left: 150px;
+}
+
+.input-name {
+    height: 44px;
+    width: 373px;
+    font-size: 17px;
+    padding: 8px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    border-color: #44444434;
+    border-width: .2px;
+    outline: 0;
+}
+
+.input-email {
+    height: 44px;
+    width: 373px;
+    font-size: 17px;
+    padding: 8px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    border-color: #44444434;
+    border-width: .2px;
+    outline: 0;
+}
+
+.input-phone {
+    height: 44px;
+    width: 373px;
+    font-size: 17px;
+    padding: 8px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    border-color: #44444434;
+    border-width: .2px;
+    outline: 0;
+}
+
+.appoinment-info2 {
+    display: inline-block;
+    height: 48px;
+    width: 100%;
+    position: relative;
+    top: 45px;
+}
+
+.appoinment-date {
+    position: relative;
+    display: inline-block;
+    left: 100px;
+}
+
+.appoinment-department {
+    position: relative;
+    display: inline-block;
+    left: 125px;
+}
+
+.appoinment-doctors {
+    position: relative;
+    display: inline-block;
+    left: 150px;
+}
+
+.input-date {
+    height: 44px;
+    width: 373px;
+    font-size: 17px;
+    padding: 8px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    border-color: #44444434;
+    border-width: .2px;
+    outline: 0;
+}
+
+.departments {
+    height: 44px;
+    width: 373px;
+    font-size: 17px;
+    padding: 8px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    border-color: #44444434;
+    border-width: .2px;
+    outline: 0;
+}
+
+.doctors {
+    height: 44px;
+    width: 373px;
+    font-size: 17px;
+    padding: 8px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    border-color: #44444434;
+    border-width: .2px;
+    outline: 0;
+}
+
+.appoinment-info3 {
+    display: inline-block;
+    height: 154px;
+    width: 100%;
+    position: relative;
+    top: 39px;
+}
+
+.appoinment-message {
+    display: inline-block;
+    position: relative;
+    left: 100px;
+}
+
+.input-message {
+    height: 154px;
+    width: 1177px;
+    font-size: 17px;
+    padding: 8px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    border-color: #44444434;
+    border-width: .2px;
+    outline: 0;
+}
+
+.appoinment-final {
+    display: inline-block;
+    position: relative;
+    background: #1977cc;
+    height: 45px;
+    width: 230px;
+    border-radius: 25px;
+    left: 565px;
+    top: 85px;
+    transition: .3s ease-out;
+}
+
+.appoinment-final:hover {
+    background: #1979ccc0;
+    transition: .3s ease-in;
+}
+
+.input-final {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    margin: 11px;
+    position: relative;
+    left: 21px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.post-header {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    top: 48px;
+    box-shadow: 12px 0px 12px grey;
+}
+
+.address {
+    display: inline-block;
+    position: relative;
+    left: 105px;
+    top: 60px;
+    margin: 5px;
+}
+
+.address-title {
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    display: inline-block;
+}
+
+.address-main {
+    position: relative;
+    margin: 7px;
+    right: 7px;
+    top: 5px;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+    font-size: 15px;
+}
+
+.navlinks {
+    display: inline-block;
+    position: relative;
+    left: 220px;
+    top: 80px;
+    height: 180px;
+}
+
+.usefulnav {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #444444;
+}
+
+.redirect-main {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: 11px;
+}
+
+.fa-chevron-right {
+    font-size: 13px;
+    color: #1977cc;
+}
+
+.re-list {
+    position: relative;
+    left: 15px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+    font-size: 15px;
+    transition: .2s ease-out;
+}
+
+.re-list:hover {
+    color: #1977cc;
+    transition: .2s ease-in;
+}
+
+.Serv {
+    display: inline-block;
+    position: relative;
+    left: 323px;
+    top: 80px;
+    height: 180px;
+}
+
+.serv-main {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #444444;
+}
+
+.Newsletter {
+    display: inline-block;
+    position: relative;
+    left: 407px;
+    height: 76px;
+    bottom: 19px;
+}
+
+.joinnews {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #444444;
+}
+
+.news-para {
+    position: relative;
+    margin: 7px;
+    right: 7px;
+    top: 5px;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+    font-size: 15px;
+}
+
+.email-submit {
+    display: inline-block;
+    position: relative;
+    left: 36px;
+    top: 53px;
+}
+
+.email-box {
+    height: 42px;
+    width: 275px;
+    border-radius: 20px;
+    padding: 8px;
+    padding-right: 38px;
+    border-color: #44444434;
+    border-width: .2px;
+    outline: 0;
+}
+
+.sub {
+    display: inline-block;
+    position: relative;
+    right: 39px;
+    background: #1977cc;
+    font-size: 17px;
+    height: 43px;
+    width: 120px;
+    border-radius: 25px;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    top: 0.5px;
+    border-width: 0px;
+    transition: .3s ease-out;
+}
+
+.sub:hover {
+    background: #1e82dad8;
+    transition: .3s ease-in;
+}
+
+.department-section {
+    height: 460px;
+    width: 100%;
+    position: relative;
+    top: 46px;
+}
+
+.department-info {
+    position: relative;
+    top: 95px;
+}
+
+.department-title {
+    display: inline-block;
+    position: relative;
+    left: 43.1%;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+.deprtment-para {
+    position: relative;
+    display: inline-block;
+    margin: 11px;
+    padding-left: 130px;
+    padding-right: 130px;
+    text-align: center;
+    margin-top: 26px;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: 15.5px;
+    font-weight: 600;
+}
+
+.department-row {
+    display: inline-block;
+    height: 265px;
+    width: 100%;
+    position: relative;
+    top: 100px;
+}
+
+.department-list {
+    display: inline-block;
+    position: relative;
+    height: 165px;
+    width: 113px;
+    left: 110px;
+    top: 25px;
+}
+
+.list-dep {
+    list-style: none;
+}
+
+.list-name {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    font-size: 15px;
+    transition: .3s ease-out;
+    font-weight: 600;
+}
+
+.list-name:hover {
+    color: #1977cc;
+    transition: .3s ease-in;
+}
+
+.specialization-para {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    left: 255px;
+    height: 225px;
+    bottom: 8px;
+}
+
+.spc-title {
+    font-size: 30px;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+}
+
+.spc-para1 {
+    display: inline-block;
+    position: relative;
+    top: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-right: 105px;
+    text-align: justify;
+    font-family: "Open Sans", sans-serif;
+}
+
+.spc-para2 {
+    display: inline-block;
+    position: relative;
+    top: 33px;
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 100px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+@media (max-width:1024px) and (min-width:769px) {
+    .pages {
+        position: relative;
+        top: 44%;
+        left: 23%;
+    }
+
+    .items {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .service1 {
+        margin-left: 30px;
+        font-family: "Raleway", sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+        position: relative;
+        display: inline-block;
+        padding-right: 0px;
+        margin-top: 40px;
+    }
+
+    .service1-info {
+        padding: 15px;
+        font-size: 18px;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        text-align: justify;
+    }
+
+    .btn-more {
+        position: absolute;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.219);
+        left: 78px;
+        top: 84%;
+        height: 40px;
+        width: 160px;
+        border-radius: 50px;
+        transition: .4s ease-out;
+    }
+
+    .right-box {
+        position: relative;
+        left: 104%;
+        bottom: 82px;
+        height: 100%;
+        width: 150%;
+    }
+
+    .count1 {
+        background: #fff;
+        height: 136px;
+        width: 21%;
+        display: inline-block;
+        position: relative;
+        left: 0px;
+        bottom: 18px;
+        margin-left: 30px;
+    }   
+    
+    .count-icon {
+        display: inline-block;
+        position: absolute;
+        background: #1977cc;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        left: 83px;
+        bottom: 110px;
+    }
+    
+    .number-count {
+        position: absolute;
+        font-size: 36px;
+        font-family: "Open Sans", sans-serif;
+        margin: 8px;
+        left: 77px;
+        top: 33px;
+        font-weight: 500;
+    }
+
+    .count-para {
+        font-family: "Raleway", sans-serif;
+        position: absolute;
+        font-size: 16px;
+        margin: 7px;
+        left: 69px;
+        top: 88px;
+        color: #444444;
+    }
+
+    .cp1 {
+        left: 52px;
+    }
+
+    .cp2 {
+        left: 48px;
+    }
+
+    .cp3 {
+        left: 75px;
+    }
+
+    .one {
+        left: 70px;
+    }
+
+    .service-section {
+        background: white;
+        height: 138%;
+        width: 100%;
+    }
+
+    .service-header {
+        position: relative;
+        top: 58px;
+        height: 150px;
+    }
+    
+    .service-title {
+        position: relative;
+        display: inline-block;
+        left: 43%;
+        font-family: "Raleway", sans-serif;
+        font-size: 34px;
+        color: #2c4964;
+    }
+    
+    .service-paragraph {
+        position: relative;
+        margin: 15px;
+        text-align: center;
+        font-size: 18px;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-family: "Open Sans", sans-serif;
+        top: 25px;
+        color: #444444;
+    }
+    
+    .services-box {
+        height: 65%;
+        position: relative;
+        top: 59px;
+    }
+        
+
+    .service-container {
+        background: white;
+        height: 261px;
+        width: 27%;
+        display: inline-block;
+        margin: 15px;
+        position: relative;
+        left: 51px;
+        outline: 0.1px solid rgba(87, 151, 204, 0.404);
+        transition: .3s ease-in-out;
+    }
+
+    .icons-service {
+        position: absolute;
+        font-size: 40px;
+        margin: 12px;
+        left: 93.75px;
+        top: 38px;
+        background: #1977cc;
+        height: 70px;
+        width: 70px;
+        border-radius: 6px;
+        box-shadow: -8px -8px 0px #badaf7;
+        color: white;
+        transition: .3s ease-in-out;
+    }
+
+    .head-service-lorem {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 50.25px;
+        top: 129px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+    
+    .head-service-sed {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 16.5px;
+        top: 129px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-magni {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 43.5px;
+        top: 129px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+    
+    .head-service-nemo {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 60.5px;
+        top: 129px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-dele {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 66px;
+        top: 129px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-divera {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 65.5px;
+        top: 129px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .para-service {
+        border-left-width: 10px;
+        padding-left: 13px;
+        padding-right: 13px;
+        text-align: center;
+        font-size: 17px;
+        top: 178px;
+        position: absolute;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+    
+    .appoinment-section {
+        background: #f1f7fd;
+        height: 696px;
+        width: 100%;
+        position: relative;
+        top: 0px;
+    }
+    
+    
+    
+    .appoinment-title {
+        font-size: 31px;
+        position: relative;
+        display: inline-block;
+        left: 36%;
+        top: 28px;
+        font-family: "Raleway", sans-serif;
+        color: #2c4964;
+    }
+    
+    .appoinment-para {
+        position: relative;
+        font-size: 18px;
+        margin: 7px;
+        top: 47px;
+        text-align: center;
+        padding-left: 70px;
+        padding-right: 70px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+    .main-form {
+        height: 63%;
+        width: 100%;
+    }
+    
+
+    .appoinment-info1 {
+        display: inline-block;
+        height: 109px;
+        width: 100%;
+        position: relative;
+        top: 15px;
+    }
+        
+
+    .appoinment-name {
+        position: relative;
+        display: inline-block;
+        left: 117px;
+    }
+
+    .appoinment-email {
+        position: relative;
+        display: inline-block;
+        left: 156px;
+    }
+
+    .appoinment-number {
+        position: relative;
+        display: inline-block;
+        left: 117px;
+        top: 21px;
+    }
+
+    .appoinment-date {
+        position: relative;
+        display: inline-block;
+        left: 533px;
+        bottom: 75px;
+    }
+
+    .appoinment-department {
+        position: relative;
+        display: inline-block;
+        left: -260px;
+        bottom: 7px;
+    }
+
+    .appoinment-doctors {
+        position: relative;
+        display: inline-block;
+        left: 533px;
+        bottom: 52px;
+    }
+
+    .appoinment-info3 {
+        display: inline-block;
+        height: 154px;
+        width: 100%;
+        position: relative;
+        top: -26px;
+    }
+    
+    .appoinment-message {
+        display: inline-block;
+        position: relative;
+        left: 117px;
+    }
+
+    .input-message {
+        height: 154px;
+        width: 789px;
+        font-size: 17px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-final {
+        display: inline-block;
+        position: relative;
+        background: #1977cc;
+        height: 45px;
+        width: 230px;
+        border-radius: 25px;
+        left: 394px;
+        top: 15px;
+        transition: .3s ease-out;
+    }
+    
+
+    .department-section {
+        height: 460px;
+        width: 100%;
+        position: relative;
+        top: 0px;
+    }
+
+    .department-info {
+        position: relative;
+        top: 25px;
+    }
+
+    .department-title {
+        display: inline-block;
+        position: relative;
+        left: 40%;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+    .deprtment-para {
+        position: relative;
+        display: inline-block;
+        margin: 5px;
+        padding-left: 75px;
+        padding-right: 75px;
+        text-align: center;
+        margin-top: 26px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        font-size: 15.5px;
+        font-weight: 600;
+    }
+
+    .department-row {
+        display: inline-block;
+        height: 265px;
+        width: 100%;
+        position: relative;
+        top: 60px;
+    }
+
+    .department-list {
+        display: inline-block;
+        position: relative;
+        height: 165px;
+        width: 113px;
+        left: 110px;
+        top: 5px;
+    }
+
+    .specialization-para {
+        display: inline-block;
+        position: relative;
+        width: 50%;
+        left: 303px;
+        height: 225px;
+        bottom: 8px;
+    }
+
+    .spc-para1 {
+        display: inline-block;
+        position: relative;
+        top: 16px;
+        font-size: 16px;
+        font-weight: 600;
+        padding-right: 0px;
+        text-align: justify;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .spc-para2 {
+        display: inline-block;
+        position: relative;
+        top: 33px;
+        font-size: 18px;
+        text-align: justify;
+        padding-right: 0px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .post-header {
+        height: 350px;
+        width: 100%;
+        position: relative;
+        top: 0px;
+        box-shadow: 12px 0px 12px grey;
+    }
+
+    .address {
+        display: inline-block;
+        position: relative;
+        left: 100px;
+        top: 24px;
+        margin: 5px;
+    }
+
+    .navlinks {
+        display: inline-block;
+        position: relative;
+        left: 250px;
+        top: 36px;
+        height: 180px;
+    }
+    
+    .Serv {
+        display: inline-block;
+        position: relative;
+        left: 412px;
+        top: 38px;
+        height: 180px;
+    }
+    
+    .Newsletter {
+        display: inline-block;
+        position: relative;
+        left: -403px;
+        height: 76px;
+        top: 141px;
+    }
+
+    .email-submit {
+        display: inline-block;
+        position: relative;
+        left: 556px;
+        top: 81px;
+    }
+    
+    
+}
+
+@media (max-width:600px) {
+    html,
+    body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+
+    .contact-info {
+        position: absolute;
+        top: 12px;
+        left: 28px;
+    }
+
+    .sociallinks {
+        display: inline-block;
+        position: absolute;
+        right: 36px;
+        top: 13px;
+        font-size: 17px;
+        color: rgb(3, 133, 255);
+    }
+    
+    .pages {
+        display: none;
+    }    
+
+    .appoinment {
+        display: inline-block;
+        position: relative;
+        left: 54%;
+        top: 22%;
+        background: rgb(67, 67, 248);
+        height: 34px;
+        width: 193px;
+        border-radius: 30px;
+        transition: .4s ease-out;
+        cursor: pointer;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        left: 350px;
+        top: 27px;
+    }
+        
+
+    .dropdown-icon {
+        font-size: 35px;
+        color: #1977cc;
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(216, 216, 216, 0.938);
+        min-width: 70px;
+        box-shadow: 0px 1px 6px 6px rgba(0, 0, 0, 0.267);
+        padding: 12px 16px;
+        z-index: 1;
+        top: 40px;
+        right: 0px;
+        height: 206px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+    .menu {
+        position: relative;
+        bottom: 10px;
+    }
+
+    .drop {
+        list-style: none;
+        margin-top: 12px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        
+    }
+
+    .drop-name {
+        text-decoration: none;
+        color: #2c4964;
+        cursor: pointer;
+    }
+
+    .drop-name:hover {
+        color: #1977cc;
+    }
+
+    .banner {
+        background-image: url(https://bootstrapmade.com/demo/templates/Medilab/assets/img/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 46%;
+    }
+
+    .welcome-info {
+        font-size: 34px;
+    }
+
+    .info {
+        margin-top: 17px;
+        font-size: 17px;
+    }
+
+    .started {
+        position: relative;
+        display: inline-block;
+        background: #1977cc;
+        height: 34px;
+        width: 108px;
+        border-radius: 30px;
+        top: 29px;
+        transition: .4s ease-out;
+    }
+
+    .btn-get-started {
+        text-decoration: none;
+        color: white;
+        left: 11px;
+        position: relative;
+        top: 10px;
+        font-size: 13px;
+    }
+
+    .container {
+        height: 1411px;
+    }
+
+    .box1 {
+        background: #1977cc;
+        height: 297px;
+        width: 93%;
+        display: inline-block;
+        position: absolute;
+        left: 4%;
+        top: 67%;
+        border-radius: 5px;
+    }
+
+    .service1 {
+        margin-left: 30px;
+        font-family: "Raleway", sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        color: white;
+        position: relative;
+        display: inline-block;
+        padding-right: 29px;
+        margin-top: 40px;
+        left: 65px;
+    }
+
+    .service1-info {
+        padding: 54px;
+        font-size: 18px;
+        padding-top: 0;
+        padding-bottom: 0;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        text-align: justify;
+        position: relative;
+        top: 25px;
+    }
+
+    .btn-more {
+        position: absolute;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.219);
+        left: 194px;
+        top: 78%;
+        height: 40px;
+        width: 160px;
+        border-radius: 50px;
+        transition: .4s ease-out;
+    }
+
+    .box {
+        background: white;
+        height: 321px;
+        display: inline-block;
+        width: 69%;
+        position: relative;
+        left: 14%;
+        margin-top: 30px;
+        top: 316px;
+        bottom: 171px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 22px grey;
+    }
+    
+    .service2 {
+        position: relative;
+        left: 0%;
+        font-size: 31px;
+        top: 33%;
+        padding: 3%;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+    
+    .service2-para {
+        position: relative;
+        left: 0%;
+        top: 29%;
+        padding: 6%;
+        font-size: 21px;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        color: #848484;
+    }
+    
+    .right-box {
+        position: relative;
+        left: 104%;
+        bottom: 71px;
+        height: 100%;
+        width: 150%;
+    }
+    
+    .information {
+        color: #2c4964;
+        font-size: 17px;
+        margin: 4px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .info-para {
+        color: #444444;
+        font-size: 14.5px;
+        font-family: "Open Sans", sans-serif;
+        margin: 7px;
+        margin-top: 20px;
+    }
+    
+    .countbox {
+        background: #f1f7fd;
+        height: 122px;
+        width: 100%;
+        position: relative;
+        top: 55px;
+    }
+
+    .count1 {
+        background: #fff;
+        height: 121px;
+        width: 21%;
+        display: inline-block;
+        position: relative;
+        left: 0px;
+        margin-left: 17px;
+    }
+
+    .count-icon {
+        display: inline-block;
+        position: absolute;
+        background: #1977cc;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        left: 39px;
+        bottom: 97px;
+    }
+
+    .number-count {
+        position: relative;
+        font-size: 36px;
+        font-family: "Open Sans", sans-serif;
+        margin: 7px;
+        left: 36px;
+        top: 32px;
+        font-weight: 500;
+    }
+    
+    .count-para {
+        font-family: "Raleway", sans-serif;
+        position: absolute;
+        font-size: 16px;
+        margin: 4px;
+        left: 28px;
+        top: 83px;
+        color: #444444;
+    }
+
+    .cp1 {
+        left: 7px;
+    }
+
+    .cp2 {
+        left: 4px;
+    }
+
+    .one {
+        left: 25px;
+    }
+
+    .service-section {
+        background: white;
+        height: 170%;
+        width: 100%;
+        position: relative;
+        top: 46px;
+    }
+    
+    .service-header {
+        position: relative;
+        top: 0px;
+        height: 191px;
+    }
+
+    .service-title {
+        position: relative;
+        display: inline-block;
+        left: 39.5%;
+        top: 17px;
+        font-family: "Raleway", sans-serif;
+        font-size: 34px;
+        color: #2c4964;
+    }
+
+    .service-paragraph {
+        position: relative;
+        margin: 15px;
+        text-align: center;
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Open Sans", sans-serif;
+        top: 25px;
+        color: #444444;
+    }
+
+    .services-box {
+        height: 80%;
+        position: relative;
+        top: 3px;
+    }
+
+
+    .service-container {
+        background: white;
+        height: 265px;
+        width: 43%;
+        display: inline-block;
+        margin: 15px;
+        position: relative;
+        left: 12px;
+        outline: 0.1px solid rgba(87, 151, 204, 0.404);
+        transition: .3s ease-in-out;
+    }
+
+    .icons-service {
+        position: absolute;
+        font-size: 40px;
+        margin: 12px;
+        left: 85.75px;
+        top: 38px;
+        background: #1977cc;
+        height: 70px;
+        width: 70px;
+        border-radius: 6px;
+        box-shadow: -8px -8px 0px #badaf7;
+        color: white;
+        transition: .3s ease-in-out;
+    }
+
+    .head-service-lorem {
+        position: absolute;
+        font-size: 26px;
+        margin: 5px;
+        left: 45px;
+        top: 133px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-sed {
+        position: absolute;
+        font-size: 26px;
+        margin: 5px;
+        left: 11.5px;
+        top: 133px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-magni {
+        position: absolute;
+        font-size: 26px;
+        margin: 5px;
+        left: 35.5px;
+        top: 133px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+    
+    .head-service-nemo {
+        position: absolute;
+        font-size: 26px;
+        margin: 5px;
+        left: 53.5px;
+        top: 133px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .para-service {
+        border-left-width: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        text-align: center;
+        font-size: 17px;
+        top: 180px;
+        position: absolute;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+    .head-service-dele {
+        position: absolute;
+        font-size: 26px;
+        margin: 5px;
+        left: 57px;
+        top: 133px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-divera {
+        position: absolute;
+        font-size: 26px;
+        margin: 5px;
+        left: 58.5px;
+        top: 133px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .appoinment-title {
+        font-size: 31px;
+        position: relative;
+        display: inline-block;
+        left: 22.7%;
+        top: 24px;
+        font-family: "Raleway", sans-serif;
+        color: #2c4964;
+    }
+
+    .appoinment-para {
+        position: relative;
+        font-size: 18px;
+        margin: 9px;
+        top: 30px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+    .appoinment-info1 {
+        display: inline-block;
+        height: 83px;
+        width: 100%;
+        position: relative;
+        top: 15px;
+    }
+
+    .appoinment-name {
+        position: relative;
+        display: inline-block;
+        left: 30px;
+    }
+
+    .input-name {
+        height: 34px;
+        width: 263px;
+        font-size: 14px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-email {
+        position: relative;
+        display: inline-block;
+        left: 39px;
+    }
+
+    .input-email {
+        height: 34px;
+        width: 263px;
+        font-size: 14px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-number {
+        position: relative;
+        display: inline-block;
+        left: 30px;
+        top: 15px;
+    }   
+
+    .input-phone {
+        height: 34px;
+        width: 263px;
+        font-size: 14px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-date {
+        position: relative;
+        display: inline-block;
+        left: 306px;
+        bottom: 64px;
+    }
+
+    .input-date {
+        height: 34px;
+        width: 263px;
+        font-size: 14px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-department {
+        position: relative;
+        display: inline-block;
+        bottom: 16px;
+        left: -237px;
+    }
+
+    .departments {
+        height: 34px;
+        width: 263px;
+        font-size: 14px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-doctors {
+        position: relative;
+        display: inline-block;
+        left: 306px;
+        bottom: 53px;
+    }
+    
+    .doctors {
+        height: 34px;
+        width: 263px;
+        font-size: 14px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }    
+
+    .appoinment-info3 {
+        display: inline-block;
+        height: 154px;
+        width: 100%;
+        position: relative;
+        top: -26px;
+    }
+
+    .appoinment-message {
+        display: inline-block;
+        position: relative;
+        left: 30px;
+    }
+
+    .input-message {
+        height: 154px;
+        width: 541px;
+        font-size: 17px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-final {
+        display: inline-block;
+        position: relative;
+        background: #1977cc;
+        height: 45px;
+        width: 230px;
+        border-radius: 25px;
+        left: 196px;
+        top: 49px;
+        transition: .3s ease-out;
+    }
+
+    .department-info {
+        position: relative;
+        top: 0;
+        height: 167px;
+    }
+
+    .department-title {
+        display: inline-block;
+        position: relative;
+        left: 36%;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        top: 16px;
+    }
+
+    .deprtment-para {
+        position: relative;
+        display: inline-block;
+        margin: 11px;
+        top: 21px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        margin-top: 15px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        font-size: 15.5px;
+        font-weight: 600;
+    }
+
+    .department-row {
+        display: inline-block;
+        height: 265px;
+        width: 100%;
+        position: relative;
+        top: 8px;
+    }
+    
+    .department-list {
+        display: inline-block;
+        position: relative;
+        height: 165px;
+        width: 113px;
+        left: 50px;
+        top: -211px;
+    }    
+
+
+    .department-list {
+        display: inline-block;
+        position: relative;
+        height: 182px;
+        width: 102px;
+        left: 50px;
+        top: 0px;
+    }
+
+    .specialization-para {
+        display: inline-block;
+        position: relative;
+        width: 66%;
+        left: 49px;
+        height: 274px;
+        bottom: 8px;
+    }
+
+    .spc-title {
+        font-size: 28px;
+        display: inline-block;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .spc-para1 {
+        display: inline-block;
+        position: relative;
+        top: 16px;
+        font-size: 15px;
+        font-weight: 600;
+        padding-right: 0px;
+        text-align: justify;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .spc-para2 {
+        display: inline-block;
+        position: relative;
+        top: 33px;
+        font-size: 17px;
+        text-align: justify;
+        padding-right: 0px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .address {
+        display: inline-block;
+        position: relative;
+        left: 8px;
+        top: 3px;
+        margin: 5px;
+    }
+
+    .navlinks {
+        display: inline-block;
+        position: relative;
+        left: 10px;
+        top: 20px;
+        height: 180px;
+    }
+
+    .Serv {
+        display: inline-block;
+        position: relative;
+        left: 63px;
+        top: 20px;
+        height: 180px;
+    }
+
+    .Newsletter {
+        display: inline-block;
+        position: relative;
+        left: 14px;
+        height: 76px;
+        top: 40px;
+    }
+
+    .email-submit {
+        display: inline-block;
+        position: relative;
+        left: 9px;
+        top: 42px;
+    }
+}
+
+@media (max-width:480px) {
+  
+    html,
+    body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        left: 288px;
+        top: 30px;
+    }    
+
+    .dropdown-icon {
+        font-size: 24px;
+        color: #1977cc;
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(216, 216, 216, 0.938);
+        min-width: 70px;
+        box-shadow: 0px 1px 6px 6px rgba(0, 0, 0, 0.267);
+        padding: 12px 16px;
+        z-index: 1;
+        top: 40px;
+        right: 0px;
+        height: 206px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+    .menu {
+        position: relative;
+        bottom: 10px;
+    }
+
+    .drop {
+        list-style: none;
+        margin-top: 12px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        
+    }
+
+    .drop-name {
+        text-decoration: none;
+        color: #2c4964;
+        cursor: pointer;
+    }
+
+    .drop-name:hover {
+        color: #1977cc;
+    }
+
+    .fa-envelope {
+        font-size: 13px;
+        color: rgb(3, 133, 255);
+    }
+
+    .item-contact {
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+
+    .fa-mobile-screen-button {
+        position: relative;
+        left: 6px;
+        font-size: 13px;
+        color: rgb(3, 133, 255);
+    }
+
+    .contact-info {
+        position: absolute;
+        top: 12px;
+        left: 5px;
+    }
+
+    .num {
+        display: inline;
+        position: relative;
+        left: 8px;
+        font-size: 13px;
+    }
+
+    .sociallinks {
+        display: inline-block;
+        position: absolute;
+        right: 24px;
+        top: 14px;
+        font-size: 14px;
+        color: rgb(3, 133, 255);
+    }
+
+    .header {
+        background: rgb(255, 255, 255);
+        height: 89px;
+    }
+
+
+    .pages {
+        position: relative;
+        top: 63%;
+        left: 3.75%;
+        display: none;
+    }
+
+    .items {
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .item-name {
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        font-size: 17px;
+        font-weight: 600;
+        transition: .3s ease-out;
+    }
+
+    .app-hide  {
+        display: none;
+    }
+
+    .appoinment {
+        display: inline-block;
+        position: relative;
+        left: 55%;
+        top: 26px;
+        background: rgb(67, 67, 248);
+        height: 34px;
+        width: 128px;
+        border-radius: 30px;
+        transition: .4s ease-out;
+        cursor: pointer;
+    }
+
+    .banner {
+        background-image: url(https://bootstrapmade.com/demo/templates/Medilab/assets/img/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 33%;
+    }
+
+    .banner-info {
+        font-family: 'Raleway';
+        display: inline-block;
+        position: relative;
+        left: 4%;
+        top: 18%;
+        color: #2c4964;
+    }
+
+    .welcome-info {
+        font-size: 23px;
+    }
+
+    .info {
+        margin-top: 17px;
+        font-size: 14px;
+    }
+        
+    .started {
+        position: relative;
+        display: inline-block;
+        background: #1977cc;
+        height: 45px;
+        width: 140px;
+        border-radius: 30px;
+        top: 29px;
+        transition: .4s ease-out;
+    }
+
+    .btn-get-started {
+        text-decoration: none;
+        color: white;
+        left: 25px;
+        position: relative;
+        top: 15px;
+        font-size: 13px;
+    }
+    
+    .container {
+        height: 175%;
+    }
+        
+
+    .box1 {
+        background: #1977cc;
+        height: 252px;
+        width: 90%;
+        display: inline-block;
+        position: absolute;
+        left: 6%;
+        top: 60%;
+        border-radius: 5px;
+    }
+
+    .service1 {
+        font-family: "Raleway", sans-serif;
+        font-size: 31px;
+        font-weight: 700;
+        color: white;
+        position: relative;
+        display: inline-block;
+        padding-right: 13px;
+        margin-top: 40px;
+        left: 27px;
+    }
+
+    .service1-info {
+        padding: 14px;
+        font-size: 15px;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
+
+    .btn-more {
+        position: absolute;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.219);
+        left: 142px;
+        top: 77%;
+        height: 40px;
+        width: 160px;
+        border-radius: 50px;
+        transition: .4s ease-out;
+    }
+    
+    
+
+    .box {
+        background: white;
+        height: 220px;
+        display: inline-block;
+        width: 72%;
+        position: relative;
+        left: 14%;
+        top: 25%;
+        margin-top: 40px;
+        bottom: 171px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 22px grey;
+    }
+
+
+    .service2-para {
+        position: absolute;
+        top: 57%;
+        padding: 6%;
+        font-size: 16px;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        color: #848484;
+    }
+
+    .change {
+        left: 43px;
+    }
+
+    .right-box {
+        position: relative;
+        bottom: 76px;
+        height: 160%;
+        width: 150%;
+        left: 0;
+        top: 253px;
+    }
+
+    .watchvideo {
+        background: rgb(255, 255, 255);
+        height: 48%;
+        width: 100%;
+        background-image: url(https://bootstrapmade.com/demo/templates/Medilab/assets/img/about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .left-box {
+        font-size: 50px;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.589);
+        height: 70px;
+        width: 70px;
+        border-radius: 35px;
+        transition: .5s ease-out;
+        cursor: pointer;
+        position: relative;
+        left: 43%;
+        top: 122px;
+    }
+
+    .information {
+        color: #2c4964;
+        font-size: 18px;
+        margin: 3px;
+        font-family: "Open Sans", sans-serif;
+        margin-left: 9px;
+    }
+    
+
+    .info-para {
+        color: #444444;
+        font-size: 14.5px;
+        font-family: "Open Sans", sans-serif;
+        margin: 2px;
+        margin-top: 9px;
+        padding-right: 250px;
+        margin-left: 9px;
+        text-align: justify;
+    }
+
+    .info-box1 {
+        margin-left: 5px;
+        display: inline-block;
+        position: relative;
+        top: 18px;
+        height: 130px;
+    }
+
+    .info-box2 {
+        margin-left: 5px;
+        display: inline-block;
+        position: relative;
+        top: 20px;
+        height: 80px;
+    }
+
+    .info-box3 {
+        margin-left: 5px;
+        display: inline-block;
+        position: relative;
+        top: 80px;
+    }
+    
+
+    .lorem-para {
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        margin: 7px;
+        position: relative;
+        margin-left: 80px;
+        bottom: 56px;
+        padding-right: 230px;
+    }
+
+    .nemo-para {
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        margin: 7px;
+        position: relative;
+        margin-left: 80px;
+        bottom: 56px;
+        padding-right: 230px;
+    }
+
+    .dine-para {
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        margin: 7px;
+        position: relative;
+        margin-left: 80px;
+        bottom: 56px;
+        padding-right: 241px;
+    }
+
+    .counts {
+        background: #f1f7fd;
+        height: 120.5%;
+        width: 100%;
+        position: relative;
+        top: 560px;
+    } 
+    
+    .countbox {
+        background: #f1f7fd;
+        height: 682px;
+        width: 100%;
+        position: relative;
+        top: 55px;
+    }
+
+    .count1 {
+        background: #fff;
+        height: 123px;
+        width: 83%;
+        display: inline-block;
+        position: relative;
+        left: 17px;
+        margin: 27px;
+    }
+
+    .count-icon {
+        display: inline-block;
+        position: absolute;
+        background: #1977cc;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        left: 176px;
+        bottom: 110px;
+    }
+
+    .number-count {
+        position: absolute;
+        font-size: 36px;
+        font-family: "Open Sans", sans-serif;
+        margin: 6px;
+        left: 171px;
+        top: 36px;
+        font-weight: 500;
+    }
+
+    .count-para {
+        font-family: "Raleway", sans-serif;
+        position: absolute;
+        font-size: 16px;
+        left: 163px;
+        top: 86px;
+        color: #444444;
+    }
+        
+
+    .cp1 {
+        left: 140px;
+    }
+
+    .cp2 {
+        left: 136px;
+    }
+    
+
+    .one {
+        left: 163px;
+    }
+    
+
+    .service-section {
+        background: white;
+        height: 385%;
+        width: 100%;
+        position: relative;
+        top: 607px;
+    }    
+    
+
+    .service-header {
+        position: relative;
+        top: 0;
+        height: 250px;
+    }
+
+    .service-title {
+        position: relative;
+        display: inline-block;
+        left: 40%;
+        top: 22px;
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        color: #2c4964;
+    }
+
+    .service-paragraph {
+        position: relative;
+        margin: 6px;
+        text-align: center;
+        font-size: 18px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Open Sans", sans-serif;
+        top: 34px;
+        color: #444444;
+    }
+ 
+    .services-box {
+        height: 83%;
+        position: relative;
+        top: 0;
+    }
+    
+    .service-container {
+        background: white;
+        height: 350px;
+        width: 80%;
+        display: inline-block;
+        margin: 15px;
+        position: relative;
+        left: 34px;
+        outline: 0.1px solid rgba(87, 151, 204, 0.404);
+        transition: .3s ease-in-out;
+    }
+
+    .icons-service {
+        position: absolute;
+        font-size: 46px;
+        margin: 12px;
+        left: 145px;
+        top: 57px;
+        background: #1977cc;
+        height: 80px;
+        width: 80px;
+        border-radius: 6px;
+        box-shadow: -8px -8px 0px #badaf7;
+        color: white;
+        transition: .3s ease-in-out;
+    }
+
+    .fa-heart-pulse {
+        margin-left: 18px;
+        margin-top: 18px;
+    }
+
+    .fa-pills {
+        margin-left: 17px;
+        margin-top: 16px;
+    }
+
+    .fa-file-medical {
+        margin-left: 24px;
+        margin-top: 17px;
+    }
+    
+    .fa-dna {
+        margin-left: 21px;
+        margin-top: 18px;
+    }
+    
+    .fa-wheelchair {
+        margin-left: 20px;
+        margin-top: 17px;
+    }
+    
+    .fa-notes-medical {
+        margin-left: 19px;
+        margin-top: 18px;
+    }          
+
+    .head-service-lorem {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 106px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-sed {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 67.5px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+        
+
+    .head-service-magni {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 97px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-nemo {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 112.5px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }    
+        
+
+    .head-service-dele {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 119px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+        
+
+    .head-service-divera {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 117.5px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .para-service {
+        border-left-width: 10px;
+        padding-left: 36px;
+        padding-right: 36px;
+        text-align: center;
+        font-size: 25px;
+        top: 225px;
+        position: absolute;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+    
+
+    .appoinment-section {
+        background: #f1f7fd;
+        height: 950px;
+        width: 100%;
+        position: relative;
+        top: 608px;
+    }
+    
+
+    .appoinment-title {
+        font-size: 26px;
+        position: relative;
+        display: inline-block;
+        left: 23%;
+        top: 28px;
+        font-family: "Raleway", sans-serif;
+        color: #2c4964;
+    }
+    
+
+    .appoinment-para {
+        position: relative;
+        font-size: 17px;
+        margin: 8px;
+        top: 28px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+    .main-form {
+        height: 70%;
+        width: 100%;
+    }
+
+    .appoinment-info1 {
+        display: inline-block;
+        height: 190px;
+        width: 100%;
+        position: relative;
+        top: 15px;
+    }
+
+    .appoinment-name {
+        position: relative;
+        display: inline-block;
+        left: 55px;
+    }
+
+    .appoinment-email {
+        position: relative;
+        display: inline-block;
+        left: 55px;
+        top: 30px;
+    }
+
+    .appoinment-number {
+        position: relative;
+        display: inline-block;
+        left: 55px;
+        top: 57px;
+    }
+
+    .appoinment-info2 {
+        display: inline-block;
+        height: 192px;
+        width: 100%;
+        position: relative;
+        top: 45px;
+    }
+    
+
+    .appoinment-date {
+        position: relative;
+        display: inline-block;
+        left: 55px;
+    }
+
+    .appoinment-department {
+        position: relative;
+        display: inline-block;
+        top: 30px;
+        left: 55px;
+    }
+
+    .appoinment-doctors {
+        position: relative;
+        display: inline-block;
+        left: 55px;
+        top: 57px;
+    }
+
+    .appoinment-info3 {
+        display: inline-block;
+        height: 135px;
+        width: 100%;
+        position: relative;
+        top: 80px;
+    }
+
+    .appoinment-message {
+        display: inline-block;
+        position: relative;
+        left: 55px;
+        top: 1px;
+    }
+
+    .input-message {
+        height: 134px;
+        width: 373px;
+        font-size: 17px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-final {
+        display: inline-block;
+        position: relative;
+        background: #1977cc;
+        height: 45px;
+        width: 230px;
+        border-radius: 75px;
+        left: 125px;
+        top: 153px;
+        transition: .3s ease-out;
+    }   
+
+    .input-final {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        display: inline-block;
+        margin: 11px;
+        position: relative;
+        left: 10px;
+        top: 0px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .department-section {
+        width: 100%;
+        height: 72%;
+        position: relative;
+        top: 605px;
+    }  
+
+    .department-info {
+        position: relative;
+        top: 15px;
+    }
+
+    .department-title {
+        display: inline-block;
+        position: relative;
+        left: 30%;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+    .deprtment-para {
+        position: relative;
+        display: inline-block;
+        margin: 11px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        margin-top: 17px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        font-size: 15.5px;
+        font-weight: 600;
+    }
+
+    .department-row {
+        display: inline-block;
+        height: 268px;
+        width: 100%;
+        position: relative;
+        top: 42px;
+    }
+    
+
+    .department-list {
+        display: inline-block;
+        position: relative;
+        height: 215px;
+        width: 143px;
+        left: 34px;
+        top: -7px;
+    }    
+        
+    
+    .list-name {
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        font-size: 20px;
+        transition: .3s ease-out;
+        font-weight: 600;
+    }
+    
+    .specialization-para {
+        display: inline-block;
+        position: relative;
+        width: 53%;
+        left: 42px;
+        height: 260px;
+        bottom: -5px;
+    }    
+
+    .spc-para1 {
+        display: inline-block;
+        position: relative;
+        top: 16px;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: justify;
+        font-family: "Open Sans", sans-serif;
+        padding-right: 0px;
+    }
+
+    .spc-para2 {
+        display: inline-block;
+        position: relative;
+        top: 33px;
+        font-size: 15px;
+        text-align: justify;
+        font-family: "Open Sans", sans-serif;
+        padding-right: 0px;
+    }
+
+    .post-header {
+        height: 385px;
+        width: 165%;
+        position: relative;
+        top: 610px;
+        right: 52px;
+        box-shadow: 12px 0px 12px grey;
+    }
+        
+
+    .address {
+        display: inline-block;
+        position: relative;
+        left: 72px;
+        top: 23px;
+        margin: 5px;
+    }
+
+    .address-main {
+        position: relative;
+        margin: 7px;
+        right: 7px;
+        top: 5px;
+        font-family: "Raleway", sans-serif;
+        color: #777777;
+        font-size: 12px;
+    }
+
+    .navlinks {
+        display: inline-block;
+        position: relative;
+        left: 67px;
+        top: 38px;
+        height: 180px;
+    }
+
+    .re-list {
+        position: relative;
+        left: 15px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+        font-family: "Raleway", sans-serif;
+        color: #777777;
+        font-size: 12px;
+        transition: .2s ease-out;
+    }
+
+    .Serv {
+        display: inline-block;
+        position: relative;
+        left: 91px;
+        top: 38px;
+        height: 160px;
+    }
+
+    .Newsletter {
+        display: inline-block;
+        position: relative;
+        height: 76px;
+        top: 163px;
+        left: -303px;
+    }
+
+    .joinnews {
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        color: #444444;
+        display: inline-block;
+        position: relative;
+        left: 97px;
+    }
+
+    .news-para {
+        position: relative;
+        margin: 7px;
+        right: 7px;
+        top: 5px;
+        font-family: "Raleway", sans-serif;
+        color: #777777;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+
+    .email-submit {
+        display: inline-block;
+        position: relative;
+        left: 136px;
+        top: 149px;
+    }
+    
+
+    .email-box {
+        height: 42px;
+        width: 224px;
+        border-radius: 20px;
+        padding: 8px;
+        padding-right: 38px;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+}
+
+@media (max-width:432px) {
+
+    .contact-info {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+    }
+        
+
+    .appoinment {
+        display: inline-block;
+        position: relative;
+        left: 51%;
+        top: 26px;
+        background: rgb(67, 67, 248);
+        height: 34px;
+        width: 128px;
+        border-radius: 30px;
+        transition: .4s ease-out;
+        cursor: pointer;
+    }
+    
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        left: 255px;
+        top: 30px;
+    }
+
+    .service1 {
+        font-family: "Raleway", sans-serif;
+        font-size: 31px;
+        font-weight: 700;
+        color: white;
+        position: relative;
+        display: inline-block;
+        padding-right: 13px;
+        margin-top: 32px;
+        left: 0;
+    }
+
+    .service1-info {
+        padding: 14px;
+        font-size: 15px;
+        position: relative;
+        top: 0;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
+
+    .btn-more {
+        position: absolute;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.219);
+        left: 115px;
+        top: 79%;
+        height: 40px;
+        width: 160px;
+        border-radius: 50px;
+        transition: .4s ease-out;
+    }
+
+    .container {
+        height: 133%;
+    }
+    
+    .box1 {
+        background: #1977cc;
+        height: 252px;
+        width: 90%;
+        display: inline-block;
+        position: absolute;
+        left: 6%;
+        top: 52%;
+        border-radius: 5px;
+    }
+        
+
+    .box {
+        background: white;
+        height: 220px;
+        display: inline-block;
+        width: 72%;
+        position: relative;
+        left: 14%;
+        top: 25%;
+        margin-top: 40px;
+        bottom: 171px;
+        border-radius: 8px;
+        box-shadow: 2px 2px 22px grey;
+    }
+    
+    .service2 {
+        position: relative;
+        left: 0%;
+        font-size: 23px;
+        top: 38%;
+        padding: 2%;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+    
+    .service2-para {
+        position: absolute;
+        top: 58%;
+        padding: 4%;
+        font-size: 16px;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        color: #848484;
+    }
+        
+
+    .watchvideo {
+        background: rgb(255, 255, 255);
+        height: 33%;
+        width: 100%;
+        background-image: url(https://bootstrapmade.com/demo/templates/Medilab/assets/img/about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .left-box {
+        font-size: 50px;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.589);
+        height: 70px;
+        width: 70px;
+        border-radius: 35px;
+        transition: .5s ease-out;
+        cursor: pointer;
+        position: relative;
+        left: 43%;
+        top: 102px;
+    }
+
+    .right-box {
+        position: relative;
+        bottom: 76px;
+        height: 160%;
+        width: 150%;
+        left: 0;
+        top: 209px;
+    }
+
+    .information {
+        color: #2c4964;
+        font-size: 18px;
+        padding-right: 220px;
+        margin: 3px;
+        font-family: "Open Sans", sans-serif;
+        margin-left: 9px;
+    }
+
+    .counts {
+        background: #f1f7fd;
+        height: 97.5%;
+        width: 100%;
+        position: relative;
+        top: 560px;
+    }
+
+    .count1 {
+        background: #fff;
+        height: 123px;
+        width: 83%;
+        display: inline-block;
+        position: relative;
+        left: 17px;
+        margin: 23px;
+    }
+    
+    .count-icon {
+        display: inline-block;
+        position: absolute;
+        background: #1977cc;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        left: 164px;
+        bottom: 110px;
+    }
+    
+    .number-count {
+        position: absolute;
+        font-size: 36px;
+        font-family: "Open Sans", sans-serif;
+        margin: 6px;
+        left: 162px;
+        top: 29px;
+        font-weight: 500;
+    }
+
+    .count-para {
+        font-family: "Raleway", sans-serif;
+        position: absolute;
+        font-size: 16px;
+        left: 157px;
+        top: 82px;
+        color: #444444;
+    }
+    
+    .cp1 {
+        left: 137px;
+    }
+
+    .cp2 {
+        left: 130px;
+    }
+
+    .cp3 {
+        left: 155px;
+    }
+        
+
+    .one {
+        left: 150px;
+    }
+  
+    .service-section {
+        background: white;
+        height: 304%;
+        width: 100%;
+        position: relative;
+        top: 559px;
+    }
+    
+    .service-paragraph {
+        position: relative;
+        margin: 6px;
+        text-align: center;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Open Sans", sans-serif;
+        top: 34px;
+        color: #444444;
+    }
+    
+    .services-box {
+        height: 73%;
+        position: relative;
+        top: -53px;
+    }
+    
+    .icons-service {
+        position: absolute;
+        font-size: 46px;
+        margin: 12px;
+        left: 128px;
+        top: 57px;
+        background: #1977cc;
+        height: 80px;
+        width: 80px;
+        border-radius: 6px;
+        box-shadow: -8px -8px 0px #badaf7;
+        color: white;
+        transition: .3s ease-in-out;
+    }   
+
+    .head-service-lorem {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 90px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-sed {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 52px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-magni {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 79px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }   
+
+    .head-service-nemo {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 99px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-dele {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 103px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-divera {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 103.5px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .para-service {
+        border-left-width: 10px;
+        padding-left: 36px;
+        padding-right: 36px;
+        text-align: center;
+        font-size: 23px;
+        top: 225px;
+        position: absolute;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+    .appoinment-section {
+        background: #f1f7fd;
+        height: 760px;
+        width: 100%;
+        position: relative;
+        top: 608px;
+    }
+
+    .appoinment-header {
+        height: 180px;
+        width: 100%;
+    }
+
+    .appoinment-title {
+        font-size: 26px;
+        position: relative;
+        display: inline-block;
+        left: 20%;
+        top: 25px;
+        font-family: "Raleway", sans-serif;
+        color: #2c4964;
+    }
+    
+    .appoinment-para {
+        position: relative;
+        font-size: 16px;
+        margin: 8px;
+        top: 28px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+    .main-form {
+        height: 57%;
+        width: 100%;
+    }
+
+    .appoinment-info1 {
+        display: inline-block;
+        height: 153px;
+        width: 100%;
+        position: relative;
+        top: 15px;
+    }
+            
+    .appoinment-name {
+        position: relative;
+        display: inline-block;
+        left: 84px;
+    }
+
+    .appoinment-email {
+        position: relative;
+        display: inline-block;
+        left: 84px;
+        top: 23px;
+    }
+
+    .appoinment-number {
+        position: relative;
+        display: inline-block;
+        left: 84px;
+        top: 49px;
+    }
+
+    .appoinment-info2 {
+        display: inline-block;
+        height: 347px;
+        width: 100%;
+        position: relative;
+        top: 39px;
+    }
+        
+
+    .appoinment-date {
+        position: relative;
+        display: inline-block;
+        left: 84px;
+        top: 0;
+    }
+    
+    .appoinment-department {
+        position: relative;
+        display: inline-block;
+        top: 22px;
+        left: 84px;
+    }
+
+    .appoinment-doctors {
+        position: relative;
+        display: inline-block;
+        left: 84px;
+        top: 45px;
+    }
+
+    .appoinment-info3 {
+        display: inline-block;
+        height: 135px;
+        width: 100%;
+        position: relative;
+        top: 71px;
+    }
+
+    .appoinment-message {
+        display: inline-block;
+        position: relative;
+        left: 84px;
+        top: 1px;
+    }
+
+    .input-message {
+        height: 103px;
+        width: 263px;
+        font-size: 17px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-final {
+        display: inline-block;
+        position: relative;
+        background: #1977cc;
+        height: 45px;
+        width: 230px;
+        border-radius: 75px;
+        left: 100px;
+        top: 63px;
+        transition: .3s ease-out;
+    }
+
+    .department-list {
+        display: inline-block;
+        position: relative;
+        height: 215px;
+        width: 143px;
+        left: 34px;
+        top: -7px;
+    }
+
+    .specialization-para {
+        display: inline-block;
+        position: relative;
+        width: 53%;
+        left: 12px;
+        height: 300px;
+        bottom: -5px;
+    }
+
+    .post-header {
+        height: 475px;
+        width: 165%;
+        position: relative;
+        top: 610px;
+        right: 52px;
+        box-shadow: 12px 0px 12px grey;
+    }
+
+    .address {
+        display: inline-block;
+        position: relative;
+        left: 104px;
+        top: -12px;
+        margin: 5px;
+    }
+        
+
+    .navlinks {
+        display: inline-block;
+        position: relative;
+        left: -69px;
+        top: 163px;
+        height: 180px;
+    }
+
+    .Serv {
+        display: inline-block;
+        position: relative;
+        left: 19px;
+        top: 164px;
+        height: 160px;
+    }
+
+    .Newsletter {
+        display: inline-block;
+        position: relative;
+        height: 76px;
+        top: 163px;
+        left: 111px;
+    }
+
+    .joinnews {
+        font-size: 18px;
+        font-family: "Raleway", sans-serif;
+        color: #444444;
+        display: inline-block;
+        position: relative;
+        left: 89px;
+    }
+
+    .email-submit {
+        display: inline-block;
+        position: relative;
+        left: -243px;
+        top: 209px;
+    }
+}
+
+@media (max-width:412px) {
+    .sociallinks {
+        display: inline-block;
+        position: absolute;
+        right: 14px;
+        top: 14px;
+        font-size: 14px;
+        color: rgb(3, 133, 255);
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        left: 231px;
+        top: 30px;
+    }
+
+    .container {
+        height: 168%;
+    }   
+
+    .box1 {
+        background: #1977cc;
+        height: 252px;
+        width: 90%;
+        display: inline-block;
+        position: absolute;
+        left: 6%;
+        top: 57%;
+        border-radius: 5px;
+    }
+
+    .service1 {
+        font-family: "Raleway", sans-serif;
+        font-size: 31px;
+        font-weight: 700;
+        color: white;
+        position: relative;
+        display: inline-block;
+        padding-right: 12px;
+        margin-top: 32px;
+        left: -7px;
+    }
+
+    .btn-more {
+        position: absolute;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.219);
+        left: 106px;
+        top: 79%;
+        height: 40px;
+        width: 160px;
+        border-radius: 50px;
+        transition: .4s ease-out;
+    }
+    
+    .watchvideo {
+        background: rgb(255, 255, 255);
+        height: 41%;
+        width: 100%;
+        background-image: url(https://bootstrapmade.com/demo/templates/Medilab/assets/img/about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .counts {
+        background: #f1f7fd;
+        height: 113.5%;
+        width: 100%;
+        position: relative;
+        top: 560px;
+    }
+
+    .countbox {
+        background: #f1f7fd;
+        height: 656px;
+        width: 100%;
+        position: relative;
+        top: 55px;
+    }
+
+    .count-icon {
+        display: inline-block;
+        position: absolute;
+        background: #1977cc;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        left: 143px;
+        bottom: 110px;
+    }
+    
+    .number-count {
+        position: absolute;
+        font-size: 36px;
+        font-family: "Open Sans", sans-serif;
+        margin: 6px;
+        left: 140px;
+        top: 29px;
+        font-weight: 500;
+    }
+    
+    .count-para {
+        font-family: "Raleway", sans-serif;
+        position: absolute;
+        font-size: 16px;
+        left: 134px;
+        top: 82px;
+        color: #444444;
+    }
+
+    .cp1 {
+        left: 116px;
+    }
+
+    .cp2 {
+        left: 110px;
+    }
+
+    .cp3 {
+        left: 134px;
+    }
+
+    .one {
+        left: 129px;
+    }
+
+    .service-section {
+        background: white;
+        height: 382%;
+        width: 100%;
+        position: relative;
+        top: 562px;
+    }
+
+    .service-header {
+        position: relative;
+        top: 0;
+        height: 192px;
+    }
+
+    .service-title {
+        position: relative;
+        display: inline-block;
+        left: 38%;
+        top: 22px;
+        font-family: "Raleway", sans-serif;
+        font-size: 28px;
+        color: #2c4964;
+    }
+
+    .service-paragraph {
+        position: relative;
+        margin: 6px;
+        text-align: center;
+        font-size: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Open Sans", sans-serif;
+        top: 24px;
+        color: #444444;
+    }
+        
+
+    .services-box {
+        height: 91%;
+        position: relative;
+        top: -17px;
+    }
+        
+    
+    .icons-service {
+        position: absolute;
+        font-size: 46px;
+        margin: 12px;
+        left: 120px;
+        top: 57px;
+        background: #1977cc;
+        height: 80px;
+        width: 80px;
+        border-radius: 6px;
+        box-shadow: -8px -8px 0px #badaf7;
+        color: white;
+        transition: .3s ease-in-out;
+    }
+
+    .head-service-lorem {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 82px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-sed {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 45px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-magni {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 75px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-nemo {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 90px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-dele {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 95px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-divera {
+        position: absolute;
+        font-size: 26px;
+        margin: 7px;
+        left: 95.5px;
+        top: 170px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .para-service {
+        border-left-width: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        font-size: 22px;
+        top: 225px;
+        position: absolute;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+
+    .appoinment-section {
+        background: #f1f7fd;
+        height: 760px;
+        width: 100%;
+        position: relative;
+        top: 565px;
+    }
+
+    .department-section {
+        width: 100%;
+        height: 86%;
+        position: relative;
+        top: 605px;
+    }
+
+    .specialization-para {
+        display: inline-block;
+        position: relative;
+        width: 53%;
+        left: 12px;
+        height: 300px;
+        bottom: -18px;
+    }
+
+    .post-header {
+        height: 516px;
+        width: 165%;
+        position: relative;
+        top: 610px;
+        right: 52px;
+        box-shadow: 12px 0px 12px grey;
+    }
+
+    .Newsletter {
+        display: inline-block;
+        position: relative;
+        height: 76px;
+        top: 163px;
+        left: 87px;
+    }
+
+    .email-submit {
+        display: inline-block;
+        position: relative;
+        left: 102px;
+        top: 181px;
+    }
+ 
+}
+
+
+
+@media (max-width:320px) {
+
+    html,
+    body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        left: 167px;
+        top: 15px;
+    }  
+
+    .dropdown-icon {
+        font-size: 24px;
+        color: #1977cc;
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgba(216, 216, 216, 0.938);
+        min-width: 70px;
+        box-shadow: 0px 1px 6px 6px rgba(0, 0, 0, 0.267);
+        padding: 12px 16px;
+        z-index: 1;
+        top: 40px;
+        right: 0px;
+        height: 206px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+      
+    .menu {
+        position: relative;
+        bottom: 10px;
+    }
+
+    .drop {
+        list-style: none;
+        margin-top: 12px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        
+    }
+
+    .drop-name {
+        text-decoration: none;
+        color: #2c4964;
+        cursor: pointer;
+    }
+
+    .drop-name:hover {
+        color: #1977cc;
+    }
+
+    .fa-envelope {
+        font-size: 10px;
+        color: rgb(3, 133, 255);
+    }
+
+    .item-contact {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+
+    .fa-mobile-screen-button {
+        position: relative;
+        left: 1px;
+        font-size: 10px;
+        color: rgb(3, 133, 255);
+    }
+
+    .num {
+        display: inline-block;
+        position: relative;
+        left: 0px;
+        bottom: 0.5px;
+        font-size: 12px;
+    }
+
+    .contact-info {
+        position: absolute;
+        top: 12px;
+        left: 5px;
+    }
+
+    .top-bar {
+        background: #f7f7f7;
+        height: 40px;
+        font-size: 17px;
+        width: 212%;
+    }
+
+    .sociallinks {
+        display: inline-block;
+        position: absolute;
+        top: 16px;
+        right: 3%;
+        font-size: 12px;
+        color: rgb(3, 133, 255);
+    }
+
+    .fa-brands {
+        margin-left: 6px;
+        cursor: pointer;
+        transition: .5s ease-out;
+    }
+
+    .banner {
+        background-image: url(https://bootstrapmade.com/demo/templates/Medilab/assets/img/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 27%;
+    }
+
+    .header {
+        background: rgb(255, 255, 255);
+        height: 52px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 4%;
+        top: 51px;
+    }
+
+    .company-name {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bolder;
+        font-size: 28px;
+        color: #2c4964;
+    }
+    
+
+    .pages {
+       display: none;
+    }
+
+    .items {
+        display: inline-block;
+        margin-left: 15px;
+    }    
+
+    .info {
+        margin-top: 17px;
+        font-size: 12px;
+    }
+
+    .welcome-info {
+        font-size: 17px;
+    }
+
+
+    .started {
+        position: relative;
+        display: inline-block;
+        background: #1977cc;
+        height: 28px;
+        width: 101px;
+        border-radius: 30px;
+        top: 21px;
+        transition: .4s ease-out;
+        right: 3px;
+    }
+        
+
+    .btn-get-started {
+        text-decoration: none;
+        color: white;
+        left: 15px;
+        position: relative;
+        top: 8px;
+        font-size: 11px;
+    }
+
+    .appoinment {
+        display: inline-block;
+        position: relative;
+        left: 48%;
+        top: 20%;
+        background: rgb(67, 67, 248);
+        height: 29px;
+        width: 110px;
+        border-radius: 30px;
+        transition: .4s ease-out;
+        cursor: pointer;
+    }
+
+    .booking {
+        display: inline-block;
+        color: #f7f7f7;
+        text-decoration: none;
+        margin-left: 16px;
+        margin-top: 5px;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+    }
+
+    .banner-info {
+        font-family: 'Raleway';
+        display: inline-block;
+        position: relative;
+        left: 3%;
+        top: 13%;
+        color: #2c4964;
+    }
+
+    .container {
+        height: 173%;
+    }
+
+    .box1 {
+        background: #1977cc;
+        height: 199px;
+        width: 96%;
+        display: inline-block;
+        position: absolute;
+        left: 2%;
+        top: 44%;
+        border-radius: 5px;
+    }
+
+    .service1 {
+        margin-left: 24px;
+        font-family: "Raleway", sans-serif;
+        font-size: 21px;
+        font-weight: 700;
+        color: white;
+        position: relative;
+        display: inline-block;
+        margin-top: 14px;
+        left: 22px;
+        padding-right: 24px;
+    }
+
+    .service2 {
+        position: absolute;
+        left: 2%;
+        top: 36%;
+        padding: 2%;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+    .service2-para {
+        position: absolute;
+        top: 57%;
+        padding: 6%;
+        font-size: 16px;
+        text-align: center;
+        font-family: "Open Sans", sans-serif;
+        color: #848484;
+    }
+
+        
+    .change {
+        left: 24px;
+    }
+
+    .service1-info {
+        padding: 15px;
+        font-size: 12px;
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
+        
+
+    .btn-more {
+        position: absolute;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.219);
+        left: 87px;
+        top: 76%;
+        height: 30px;
+        width: 135px;
+        border-radius: 50px;
+        transition: .4s ease-out;
+    }   
+
+    .more {
+        position: absolute;
+        left: 8px;
+        bottom: 5px;
+        color: white;
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        padding: 3px;
+        margin-left: -4px;
+        margin-right: 0px;
+        padding-right: 29px;
+        padding-left: 29px;
+        transition: .4s ease-out;
+    }
+
+    .box {
+        background: white;
+        height: 260px;
+        display: inline-block;
+        width: 89%;
+        top: 18%;
+        position: relative;
+        margin-left: 2%;
+        left: 3.9%;
+        border-radius: 8px;
+        box-shadow: 2px 2px 22px grey;
+    }
+
+    .watchvideo {
+        background: rgb(255, 255, 255);
+        height: 32%;
+        width: 100%;
+        background-image: url(https://bootstrapmade.com/demo/templates/Medilab/assets/img/about.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .left-box {
+        font-size: 50px;
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.589);
+        height: 40px;
+        width: 40px;
+        border-radius: 35px;
+        transition: .5s ease-out;
+        cursor: pointer;
+        position: relative;
+        left: 46%;
+        top: 84px;
+    }
+
+    .fa-circle-play {
+        margin-left: 4px;
+        margin-top: 4px;
+        color: #1977cc;
+        font-size: 33px;
+        transition: .5s ease-out;
+    }
+
+    .fa-circle-play:hover {
+        margin-left: -4px;
+        margin-top: -4px;
+        font-size: 48px;
+        color: #f7f7f7;
+        transition: .5s ease-in;
+    }
+
+    .right-box {
+        position: relative;
+        left: 1%;
+        height: 200%;
+        width: 150%;
+        top: 171px;
+    }    
+
+    .information {
+        color: #2c4964;
+        font-size: 18px;
+        margin: 7px;
+        font-family: "Open Sans", sans-serif;
+        margin-right: 172px;
+        position: relative;
+        top: 3px;
+    }
+
+    .info-para {
+        color: #444444;
+        font-size: 12.5px;
+        font-family: "Open Sans", sans-serif;
+        margin: 3px;
+        margin-top: 20px;
+        padding-right: 171px;
+        margin-left: 7px;
+    }
+
+    .info-box1 {
+        margin-left: 5px;
+        display: inline-block;
+        position: relative;
+        height: 90px;
+        top: 0;
+    }
+
+    .info-box2 {
+        margin-left: 5px;
+        display: inline-block;
+        position: relative;
+        height: 90px;
+        top: 0;
+    }
+
+    .info-box3 {
+        margin-left: 5px;
+        display: inline-block;
+        position: relative;
+        height: 90px;
+        top: 0;
+    }
+
+    .info-icon {
+        display: inline-block;
+        font-size: 35px;
+        background: white;
+        height: 45px;
+        width: 45px;
+        border-radius: 30px;
+        position: relative;
+        left: 4px;
+        top: 25px;
+        outline: 2px solid;
+        color: #1977cc;
+        transition: .4s ease-out;
+    }
+
+    .info-icon1 {
+        display: inline-block;
+        font-size: 31px;
+        background: white;
+        height: 45px;
+        width: 45px;
+        border-radius: 30px;
+        position: relative;
+        left: 4px;
+        top: 25px;
+        outline: 2px solid;
+        color: #1977cc;
+        transition: .4s ease-out;
+    }
+
+    .info-icon2 {
+        display: inline-block;
+        font-size: 31px;
+        background: white;
+        height: 45px;
+        width: 45px;
+        border-radius: 30px;
+        position: relative;
+        left: 4px;
+        top: 25px;
+        outline: 2px solid;
+        color: #1977cc;
+        transition: .4s ease-out;
+    }
+
+    .fa-fingerprint {
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    .fa-gift {
+        margin-left: 7px;
+        margin-top: 6px;
+    }
+
+    .fa-atom {
+        margin-left: 7px;
+        margin-top: 7px;
+    }
+
+  
+    .title-1 {
+        margin: 4px;
+        margin-left: 80px;
+        position: relative;
+        bottom: 35px;
+    }
+
+    .title-2 {
+        margin: 4px;
+        margin-left: 80px;
+        position: relative;
+        bottom: 35px;
+    }
+
+    .title-3 {
+        margin: 4px;
+        margin-left: 80px;
+        position: relative;
+        bottom: 35px;
+    }
+
+    .lorem-btn {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        color: #343a40;
+        text-decoration: none;
+        transition: .3s ease-out;
+    }
+
+    .nemo-btn {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        color: #343a40;
+        text-decoration: none;
+        transition: .3s ease-out;
+    }
+
+    .dine-btn {
+        font-size: 16px;
+        font-family: "Open Sans", sans-serif;
+        color: #343a40;
+        text-decoration: none;
+        transition: .3s ease-out;
+    }
+
+    .lorem-para {
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        margin: 7px;
+        position: relative;
+        margin-left: 80px;
+        bottom: 38px;
+        padding-right: 164px;
+    }
+
+    .nemo-para {
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        margin: 7px;
+        position: relative;
+        margin-left: 80px;
+        bottom: 38px;
+        padding-right: 164px;
+    }
+
+    .dine-para {
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        margin: 7px;
+        position: relative;
+        margin-left: 80px;
+        bottom: 38px;
+        padding-right: 164px;
+    }
+
+    .counts {
+        background: #f1f7fd;
+        height: 83.5%;
+        width: 100%;
+        position: relative;
+        top: 430px;
+    }
+
+    .countbox {
+        background: #f1f7fd;
+        height: 462px;
+        width: 100%;
+        position: relative;
+        top: 55px;
+    }
+
+    .count1 {
+        background: #fff;
+        height: 91px;
+        width: 66%;
+        display: block;
+        position: relative;
+        left: 30px;
+        margin: 32px;
+    }
+
+    .count-icon {
+        display: inline-block;
+        position: absolute;
+        background: #1977cc;
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        left: 83px;
+        bottom: 65px;
+    }
+
+    .number-count {
+        position: absolute;
+        font-size: 30px;
+        font-family: "Open Sans", sans-serif;
+        margin: 5px;
+        left: 85px;
+        top: 28px;
+        font-weight: 500;
+    }
+        
+
+    .count-para {
+        font-family: "Raleway", sans-serif;
+        position: absolute;
+        font-size: 16px;
+        margin: 3px;
+        left: 74px;
+        top: 63px;
+        color: #444444;
+    }
+    
+
+    .cp1 {
+        left: 52px;
+    }
+
+    .cp2 {
+        left: 48px;
+    }
+
+    .cp3 {
+        left: 75px;
+    }
+        
+
+    .one {
+        left: 76px;
+    }
+
+    .service-section {
+        background: white;
+        height: 252%;
+        width: 100%;
+        position: relative;
+        top: 65%;
+    }
+        
+
+    .service-header {
+        position: relative;
+        height: 155px;
+    }
+
+    .service-title {
+        position: relative;
+        display: inline-block;
+        left: 35%;
+        font-family: "Raleway", sans-serif;
+        font-size: 27px;
+        color: #2c4964;
+    }
+
+    .service-paragraph {
+        position: relative;
+        margin: 5px;
+        text-align: center;
+        font-size: 13px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: "Open Sans", sans-serif;
+        top: 23px;
+        color: #444444;
+    }
+
+    
+
+    .service-container {
+        background: white;
+        height: 231px;
+        width: 79.5%;
+        display: inline-block;
+        margin: 8px;
+        position: relative;
+        left: 24px;
+        outline: 0.1px solid rgba(87, 151, 204, 0.404);
+        transition: .3s ease-in-out;
+    }
+        
+
+    .services-box {
+        height: 87.4%;
+        position: relative;
+        top: 7px;
+    }
+
+    .icons-service {
+        position: absolute;
+        font-size: 40px;
+        margin: 12px;
+        left: 93.75px;
+        top: 27px;
+        background: #1977cc;
+        height: 60px;
+        width: 60px;
+        border-radius: 6px;
+        box-shadow: -8px -8px 0px #badaf7;
+        color: white;
+        transition: .3s ease-in-out;
+    }
+
+    .head-service-lorem {
+        position: absolute;
+        font-size: 21px;
+        margin: 5px;
+        left: 61.25px;
+        top: 107px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .para-service {
+        border-left-width: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+        font-size: 17px;
+        top: 147px;
+        position: absolute;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        left: 0px;
+    }
+    
+
+    .head-service-sed {
+        position: absolute;
+        font-size: 21px;
+        margin: 5px;
+        left: 34.5px;
+        top: 107px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-magni {
+        position: absolute;
+        font-size: 21px;
+        margin: 6px;
+        left: 49.5px;
+        top: 107px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-nemo {
+        position: absolute;
+        font-size: 21px;
+        margin: 6px;
+        left: 67.5px;
+        top: 107px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .head-service-dele {
+        position: absolute;
+        font-size: 21px;
+        margin: 6px;
+        left: 71px;
+        top: 107px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+        
+
+    .head-service-divera {
+        position: absolute;
+        font-size: 21px;
+        margin: 6px;
+        left: 70.5px;
+        top: 107px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        cursor: pointer;
+    }
+
+    .fa-heart-pulse {
+        margin-left: 12px;
+        margin-top: 12px;
+    }
+
+    .fa-pills {
+        margin-left: 9px;
+        margin-top: 10px;
+    }
+
+    .fa-file-medical {
+        margin-left: 16px;
+        margin-top: 10px;
+    }
+
+    .fa-dna {
+        margin-left: 13px;
+        margin-top: 11px;
+    }
+    
+    .fa-wheelchair {
+        margin-left: 12px;
+        margin-top: 9px;
+    }
+
+    .fa-notes-medical {
+        margin-left: 11px;
+        margin-top: 10px;
+    }
+
+    .appoinment-section {
+        background: #f1f7fd;
+        height: 754px;
+        width: 100%;
+        position: relative;
+        top: 436px;
+    }
+
+    .appoinment-header {
+        height: 168px;
+        width: 100%;
+    }
+
+    .appoinment-title {
+        font-size: 22px;
+        position: relative;
+        display: inline-block;
+        left: 15%;
+        top: 20px;
+        font-family: "Raleway", sans-serif;
+        color: #2c4964;
+    }
+
+    .appoinment-para {
+        position: relative;
+        font-size: 14px;
+        margin: 4px;
+        top: 22px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+    }
+
+    .main-form {
+        height: 70%;
+        width: 100%;
+    }
+
+    .appoinment-info1 {
+        display: block;
+        height: 146px;
+        width: 100%;
+        position: relative;
+        top: 15px;
+    }
+        
+
+    .appoinment-name {
+        position: relative;
+        display: inline-block;
+        left: 34px;
+    }
+
+    .input-name {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-email {
+        position: relative;
+        display: inline-block;
+        left: 34px;
+        top: 21px;
+    }
+
+    .input-email {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-number {
+        position: relative;
+        display: inline-block;
+        left: 34px;
+        top: 41px;
+    }
+
+    .input-phone {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-info2 {
+        display: inline-block;
+        height: 147px;
+        width: 100%;
+        position: relative;
+        top: 45px;
+    }
+        
+
+    .appoinment-date {
+        position: relative;
+        display: inline-block;
+        left: 34px;
+    }
+    
+    
+    .input-date {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+    
+
+    .appoinment-department {
+        position: relative;
+        display: inline-block;
+        left: 34px;
+        top: 21px;
+    }
+        
+
+    .departments {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-doctors {
+        position: relative;
+        display: inline-block;
+        left: 34px;
+        top: 41px;
+    }
+
+    .doctors {
+        height: 35px;
+        width: 260px;
+        font-size: 13px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-info3 {
+        display: inline-block;
+        height: 128px;
+        width: 100%;
+        position: relative;
+        top: 67px;
+    }
+
+    .appoinment-message {
+        display: inline-block;
+        position: relative;
+        left: 34px;
+    }
+
+    .input-message {
+        height: 124px;
+        width: 260px;
+        font-size: 13px;
+        padding: 8px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        border-color: #44444434;
+        border-width: 0.2px;
+        outline: 0;
+    }
+
+    .appoinment-final {
+        display: inline-block;
+        position: relative;
+        background: #1977cc;
+        height: 35px;
+        width: 140px;
+        border-radius: 25px;
+        left: 91px;
+        top: 92px;
+        transition: .3s ease-out;
+    }
+
+    .input-final {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        display: inline-block;
+        margin: 5px;
+        position: relative;
+        left: 4px;
+        top: 5px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .department-section {
+        height: 502px;
+        width: 100%;
+        position: relative;
+        top: 437px;
+    }
+        
+
+    .department-info {
+        position: relative;
+        top: 60px;
+        height: 83px;
+        width: 100%;
+    }
+
+    .department-title {
+        display: inline-block;
+        position: relative;
+        left: 31%;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        bottom: 44px;
+        font-size: 20px;
+    }
+
+    .deprtment-para {
+        position: relative;
+        display: inline-block;
+        margin: 6px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        margin-top: 10px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        font-size: 12.5px;
+        font-weight: 600;
+        bottom: 42px;
+    }
+
+    .department-row {
+        display: inline-block;
+        height: 295px;
+        width: 100%;
+        position: relative;
+        top: 100px;
+    }
+    
+
+    .department-list {
+        display: inline-block;
+        position: relative;
+        height: 165px;
+        width: 72px;
+        left: 27px;
+        top: -43%;
+    }
+
+    .list-name {
+        text-decoration: none;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        font-size: 12px;
+        transition: .3s ease-out;
+        font-weight: 600;
+    }
+
+    .specialization-para {
+        display: inline-block;
+        position: relative;
+        width: 55%;
+        left: 46px;
+        height: 308px;
+        top: -23px;
+    }
+
+    .spc-title {
+        font-size: 20px;
+        display: inline-block;
+        font-family: "Raleway", sans-serif;
+    }
+
+    .spc-para1 {
+        display: inline-block;
+        position: relative;
+        top: 16px;
+        font-size: 12px;
+        font-weight: 600;
+        padding-right: 10px;
+        text-align: justify;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .spc-para2 {
+        display: inline-block;
+        position: relative;
+        top: 33px;
+        font-size: 13px;
+        text-align: justify;
+        padding-right: 9px;
+        font-family: "Open Sans", sans-serif;
+    }
+        
+    
+    .post-header {
+        height: 470px;
+        width: 212%;
+        position: relative;
+        top: 430px;
+        box-shadow: 12px 0px 12px grey;
+    }
+
+    .address {
+        display: inline-block;
+        position: relative;
+        left: 54px;
+        margin: 5px;
+        top: -40px;
+    }
+
+    .address-title {
+        font-size: 24px;
+        font-family: "Open Sans", sans-serif;
+        color: #444444;
+        display: inline-block;
+    }
+
+    .address-main {
+        position: relative;
+        margin: 7px;
+        right: 7px;
+        top: 5px;
+        font-family: "Raleway", sans-serif;
+        color: #777777;
+        font-size: 9px;
+    }
+
+    .navlinks {
+        display: inline-block;
+        position: relative;
+        top: 140px;
+        left: -81px;
+        height: 180px;
+    }
+
+    .fa-chevron-right {
+        font-size: 10px;
+        color: #1977cc;
+    }
+
+    .re-list {
+        position: relative;
+        left: 15px;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 10px;
+        font-family: "Raleway", sans-serif;
+        color: #777777;
+        font-size: 11px;
+        transition: .2s ease-out;
+    }   
+
+    .Serv {
+        display: inline-block;
+        position: relative;
+        top: 140px;
+        left: -17px;
+        height: 180px;
+    }
+
+    .Newsletter {
+        display: inline-block;
+        position: relative;
+        left: 64px;
+        height: 67px;
+        bottom: 19px;
+        top: 138px;
+    }
+
+    .joinnews {
+        font-size: 17px;
+        font-family: "Raleway", sans-serif;
+        color: #444444;
+        position: relative;
+        left: 70px;
+    }
+
+    .news-para {
+        position: relative;
+        margin: 7px;
+        right: 7px;
+        top: 5px;
+        font-family: "Raleway", sans-serif;
+        color: #777777;
+        font-size: 13px;
+    }
+
+    .email-submit {
+        display: inline-block;
+        position: relative;
+        left: -255px;
+        top: 192px;
+    }
+ }
